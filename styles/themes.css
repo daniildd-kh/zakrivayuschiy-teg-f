@@ -4,3 +4,47 @@
 ✦ theme-light — класс светлой темы
 ✦ не забудьте описать стили для изменения темы через медизапрос пользовательских предпочтений
 */
+
+:root.theme-dark{
+  --title-font-width: 785;
+  --text-font-width: 465;
+  --themes-background-color: #000;
+  --themes-font-color: #00CC14;
+  --themes-border-color: #00CC14;
+  --themes-accent-color: #00CC14;
+  --themes-changed-color: #00CC14;
+  --gradient-color: #000;
+  --gradient-transitional-color-from: #007f0c;
+  --gradient-transitional-color-to: #004306; 
+
+}
+:root.theme-light{
+  --main-font: 'Inter-Variable';
+  --accent-font: 'Press Start 2P';
+  --title-font-width: 700;
+  --text-font-width: 400;
+  --themes-background-color: #fff;
+  --themes-font-color: #000;
+  --themes-border-color: #000;
+  --themes-accent-color: #000;
+  --heart-color: #FF0000;
+  --themes-changed-color: #fff;
+  --gradient-color: #d3d3d3;
+  --gradient-transitional-color-from: #e7e7e7;
+  --gradient-transitional-color-to: #1a1a1a; 
+}
+
+@media (prefers-color-scheme: dark){
+  :root{
+    --title-font-width: 785;
+    --text-font-width: 465;
+    --themes-background-color: #000;
+    --themes-font-color: #00CC14;
+    --themes-border-color: #00CC14;
+    --themes-accent-color: #00CC14;
+    --themes-changed-color: #00CC14;
+    --gradient-color: #000;
+    --gradient-transitional-color-from: #007f0c;
+    --gradient-transitional-color-to: #004306; 
+  }
+}
