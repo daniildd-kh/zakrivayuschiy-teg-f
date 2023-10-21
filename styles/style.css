@@ -164,9 +164,6 @@
   animation: arrow 0.5s infinite ease-in-out alternate;
 }
 
-.theme-menu__button:hover {
-  opacity: 60%;
-}
 
 /* SECTION CARD */
 
@@ -185,7 +182,6 @@
   line-height: normal;
   background-color: var(--themes-background-color, #fff);
   font-variation-settings: "wght" var(--title-font-width, 700);
-  font-variation-settings: "wght" 700;
 }
 
 .card__cover {
